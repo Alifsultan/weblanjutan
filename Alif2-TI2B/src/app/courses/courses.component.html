@@ -1,0 +1,40 @@
+<h1>
+  <p style="text-align:center ">
+    INI Tugas Pertama Biodata
+  </p>
+  <!-- <p style="text-align:center ">
+    Sunday,February 10,2019
+  </p> -->
+  <p>
+    Nama : Maria Sinta Bella
+  </p>
+  <p>
+    Alamat : jln.Mawar gang 10
+  </p>
+  <p>
+    Hobby saya
+  </p>
+</h1>
+<h1>
+  <table border = 1>
+    <thead>
+      <th>
+        NO
+      </th>
+      <th>
+        Hobby
+      </th>
+      <th>
+        Keterangan
+      </th>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let a of Courses">
+        <td>{{a.NO}}</td>
+        <td>{{a.Hobby}}</td>
+        <td>{{a.Keterangan}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</h1>
