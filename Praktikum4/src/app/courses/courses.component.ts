@@ -24,7 +24,7 @@ export class CoursesComponent implements OnInit {
   imageUrl = 'http://lorempixel.com/400/200';
   colSpan = 2;
   isActive = true;
-  nama = 'ALIF';
+  nama = 'Izmir';
 
   getTitle() {
     return this.title;
